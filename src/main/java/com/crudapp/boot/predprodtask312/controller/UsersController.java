@@ -1,14 +1,13 @@
-package crudApp.controller;
+package com.crudapp.boot.predprodtask312.controller;
 
-import crudApp.model.User;
-import crudApp.service.UserService;
+
+import com.crudapp.boot.predprodtask312.service.UserService;
+import org.apache.catalina.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.ArrayList;
 import java.util.List;
 
 @Controller

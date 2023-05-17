@@ -1,7 +1,7 @@
-package crudApp.model;
+package com.crudapp.boot.predprodtask312.model;
 
+import jakarta.persistence.*;
 
-import javax.persistence.*;
 
 @Entity
 @Table(name = "users")

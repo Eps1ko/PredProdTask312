@@ -1,11 +1,13 @@
-package crudApp.dao;
+package com.crudapp.boot.predprodtask312.dao;
 
-import crudApp.model.User;
+
+import jakarta.persistence.*;
+import org.apache.catalina.User;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
-import javax.persistence.EntityManager;
-import javax.persistence.PersistenceContext;
+
 import java.util.List;
+
 
 @Repository
 @Transactional

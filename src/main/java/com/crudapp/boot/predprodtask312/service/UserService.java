@@ -1,6 +1,9 @@
-package crudApp.service;
+package com.crudapp.boot.predprodtask312.service;
 
-import crudApp.model.User;
+
+
+import org.apache.catalina.User;
+
 import java.util.List;
 
 public interface UserService {

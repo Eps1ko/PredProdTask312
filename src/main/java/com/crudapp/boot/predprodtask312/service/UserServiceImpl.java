@@ -1,7 +1,8 @@
-package crudApp.service;
+package com.crudapp.boot.predprodtask312.service;
 
-import crudApp.dao.UserDao;
-import crudApp.model.User;
+
+import com.crudapp.boot.predprodtask312.dao.UserDao;
+import org.apache.catalina.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

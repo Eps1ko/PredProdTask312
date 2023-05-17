@@ -1,6 +1,6 @@
-package crudApp.dao;
+package com.crudapp.boot.predprodtask312.dao;
 
-import crudApp.model.User;
+import org.apache.catalina.User;
 
 import java.util.List;
 
