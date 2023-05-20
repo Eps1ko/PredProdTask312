@@ -2,7 +2,8 @@ package com.crudapp.boot.predprodtask312.dao;
 
 
 import jakarta.persistence.*;
-import org.apache.catalina.User;
+
+import com.crudapp.boot.predprodtask312.model.User;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 

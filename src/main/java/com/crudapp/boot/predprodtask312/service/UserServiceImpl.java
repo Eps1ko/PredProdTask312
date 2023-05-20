@@ -2,7 +2,7 @@ package com.crudapp.boot.predprodtask312.service;
 
 
 import com.crudapp.boot.predprodtask312.dao.UserDao;
-import org.apache.catalina.User;
+import com.crudapp.boot.predprodtask312.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

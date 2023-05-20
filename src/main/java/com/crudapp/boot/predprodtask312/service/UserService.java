@@ -2,7 +2,7 @@ package com.crudapp.boot.predprodtask312.service;
 
 
 
-import org.apache.catalina.User;
+import com.crudapp.boot.predprodtask312.model.User;
 
 import java.util.List;
 

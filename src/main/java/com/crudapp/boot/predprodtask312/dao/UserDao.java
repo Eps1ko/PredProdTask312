@@ -1,6 +1,6 @@
 package com.crudapp.boot.predprodtask312.dao;
 
-import org.apache.catalina.User;
+import com.crudapp.boot.predprodtask312.model.User;
 
 import java.util.List;
 

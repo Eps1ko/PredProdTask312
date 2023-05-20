@@ -2,7 +2,7 @@ package com.crudapp.boot.predprodtask312.controller;
 
 
 import com.crudapp.boot.predprodtask312.service.UserService;
-import org.apache.catalina.User;
+import com.crudapp.boot.predprodtask312.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
