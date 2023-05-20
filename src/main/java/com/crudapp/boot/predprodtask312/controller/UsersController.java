@@ -42,7 +42,7 @@ public class UsersController {
 		model.addAttribute("userToUpdate", userService.getUser(id));
 		return "updateUser";
 	}
-	@PatchMapping("/updateUser")
+	@PostMapping("/updateUser")
 	public String updateUser(User user) {
 		userService.updateUser(user);
 		return "redirect:/";
